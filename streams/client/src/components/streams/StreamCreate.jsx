@@ -4,8 +4,9 @@ import { Field, reduxForm} from 'redux-form';
 class StreamCreate extends React.Component {
 
     renderInput = ({ input, label, meta }) => {
+        const inputClass = `field ${meta.error && meta.touched ? 'error' : ''}`
         return (
-            <div className='field'>
+            <div className={inputClass}>
                 <label>{label}</label>
                 <input {...input} autoComplete="off"/>
                 {this.renderError(meta)}
