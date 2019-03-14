@@ -1,1 +1,1 @@
-Repo for Stephen Grider's React course
+Repo for Stephen Grider's React course. By Alexander Velikorechin
